@@ -1,0 +1,17 @@
+{
+  "name": "healthline-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^30.2.0",
+    "save": "^2.9.0",
+    "save-dev": "^0.0.1-security"
+  }
+}

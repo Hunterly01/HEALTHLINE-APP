@@ -7,7 +7,14 @@ class Appointment {
   }
 
   updateStatus(newStatus) {
+    const validStatuses = ["scheduled", "seen", "no-show", "rescheduled"];
+    if(validStatuses.includes(newStatus)){
     this.status = newStatus;
+    } else {
+      throw new Error("invalid staus");
+      
+    }
+
   }
 }
 

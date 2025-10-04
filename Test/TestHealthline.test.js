@@ -1,4 +1,4 @@
-const Doctor = require ('../src/Doctor.js')
+const Doctor = require ("../src/Doctor.js")
 const Patient = require ("../src/Patient.js")
 const Appointment = require ("../src/Appointment.js")
 describe("Doctor class test", () => {
